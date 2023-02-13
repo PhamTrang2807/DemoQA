@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SmokeTests]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test main cases - WinEgde(failed)">
+    <parameter name="browser" value="WinEgde"/>
+    <classes>
+      <class name="tests.CheckBoxTest">
+        <methods>
+          <include name="verifyCheckBox"/>
+          <include name="openWebsite"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- tests.CheckBoxTest -->
+    </classes>
+  </test> <!-- Test main cases - WinEgde(failed) -->
+</suite> <!-- Failed suite [SmokeTests] -->
